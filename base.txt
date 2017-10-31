@@ -1,0 +1,53 @@
+PDF :
+http://www.fpdf.org/
+https://packagist.org/packages/dompdf/dompdf
+
+MAILER :
+https://packagist.org/packages/swiftmailer/swiftmailer
+
+API pour lateX
+http://math.et.info.free.fr/TikZ/bdd/TikZ-Impatient.pdf
+
+DB Designer en ligne
+
+=====================================================================
+
+Fonctionnalités pour le stagiaire :
+	- Agir sur un menu de navigation classique (avec camembert) en haut, avec liens, à gauche, vers :
+		¤ la page d’accueil,
+		¤ la page de planning des cours avec un agenda,
+		¤ la liste des sessions,
+		¤ la liste des membres inscrits,
+		¤ les QCM,
+		¤ les commentaires
+	et liens à droite sur un pictogramme avec sous-menu déroulant pour accéder au :
+		¤ détail du profil,
+		¤ bouton de déconnexion,
+		¤ choix de la langue d’affichage
+	- Consulter une page d’accueil actualisée, avec le ou les cours du jour liés à LA session à laquelle il s’est inscrit, avec tous les détails (l’intitulé, le nom du formateur, le descriptif, horaires, nombre d’heures, le numéro identifiant de la salle de cours, l’étage, la liste des autres étudiants inscrits, mots clefs cliquables pour afficher d’autres cours en relation avec le cours actuel présent)
+	- Consulter le planning de la formation, à partir d’un agenda responsive design en html5, ajax, bootstrap, avec une fenêtre modale pour afficher les détails du cours du jour au clic (intitulé, formateur, descriptif)
+	- Consulter la liste des sessions, avec en colonnes avec lien de classification ascendant ou descendant et pagination :
+		¤ chaque référence
+		¤ chaque intitulé
+		¤ chaque durée
+		¤ chaque date de début
+		¤ chaque date de fin
+		¤ chaque description
+		¤ chaque formateur
+		¤ les liens vers les supports de cours
+	avec un bouton d’actualisation, et bouton de recherche d’une session par mots clefs séparés par une virgule
+	- Consulter la liste des membres inscrits avec leur ID, prénom, nom, login, mot de passe, adresse e-mail, société, statut sur des colonnes avec lien de classification ascendant ou descendant
+	- Une page de profil utilisateur, avec une image par défaut dans un rond, un bouton d’ajout/modification de photo (avec formulaire d’envoi d’image, un texte court précisant le poids et les dimensions max à respecter et gestionnaire de redimensionnement intégré d’image pour égaliser largeur et hauteur) et infos classiques de compte utilisateur (ID, prénom, nom, login, mot de passe, adresse e-mail, société, statut)
+	- Télécharger les cours au clic, à partir d’une liste déroulante, contenant des éléments catégorisés suite à l’envoi d’un formulaire offrant des choix multiples de recherche (intitulé de cours, mots clefs, formateur)
+	- Commenter le cours (nombre d’heures, intitulé, formateur, descriptif, horaires, salle, la liste des autres étudiants inscrits)
+	- Éventuellement un Chat en différé ou une boîte à messages
+	- Faire une évaluation (formateur, formation...)
+	- Répondre aux QCM
+	- Converser sur un CHAT
+	- Penser à mettre des pictogrammes ici et là sur tous les liens pour faire sympatoche
+
+Pour le formateur
+	déposer un cours
+	proposer un QCM sur un cours existant
+	répondre aux commentaires des stagiaires
+	faire une évaluation (groupe, stagiaire)

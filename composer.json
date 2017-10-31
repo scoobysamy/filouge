@@ -1,0 +1,16 @@
+{
+    "name": "scoobysamy/filrouge",
+    "description": "Projet fil rouge de Softeam",
+    "type": "project",
+    "require": {
+        "summernote/summernote": "^0.8.8"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "scoobysamy",
+            "email": "scooby.samy@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
